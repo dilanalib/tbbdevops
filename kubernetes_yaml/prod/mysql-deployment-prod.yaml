@@ -44,12 +44,12 @@ spec:
           periodSeconds: 20
           timeoutSeconds: 5
         volumeMounts:
-        - name: mydb-pv-volume-prod
+        - name: mydb-pv-prod
           mountPath: /var/lib/mysql
         - name: mysql-initdb
           mountPath: /docker-entrypoint-initdb.d
       volumes:
-      - name: mydb-pv-volume-prod
+      - name: mydb-pv-prod
         persistentVolumeClaim:
           claimName: mydb-pvc
       - name: mysql-initdb
