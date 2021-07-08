@@ -41,7 +41,7 @@ spec:
           exec:
             command: ["mysqladmin", "ping"]
           initialDelaySeconds: 30
-          periodSeconds: 10
+          periodSeconds: 20
           timeoutSeconds: 5
         volumeMounts:
         - name: mydb-pv-volume-dev
