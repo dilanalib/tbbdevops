@@ -44,7 +44,7 @@ spec:
               name: mysql-root-password
               key: MYSQL_ROOT_PASSWORD
         - name: MYSQL_INSTANCE_NAME
-          value: "pythonapp"
+          value: "myapp"
         - name: MYSQL_PORT_3306_TCP_ADDR
           value: "mydb" 
         - name: MYSQL_PORT_3306_TCP_PORT
