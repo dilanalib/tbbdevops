@@ -20,8 +20,8 @@ spec:
       imagePullSecrets:
       - name: secret-key
       containers:
-      - name: myflask
-        image: dilanyuzlek/myflask
+      - name: myflask-prod
+        image: dilanyuzlek/myflask:latest
         imagePullPolicy: Always 
         ports:
         - containerPort: 5001
