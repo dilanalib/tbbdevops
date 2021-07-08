@@ -20,7 +20,7 @@ spec:
       - name: secret-key
       containers:
       - name: myflask
-        image: değiştir
+        image: dilanyuzlek/myflask
         imagePullPolicy: Always 
         ports:
         - containerPort: 3000
