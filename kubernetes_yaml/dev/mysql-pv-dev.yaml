@@ -6,7 +6,7 @@ metadata:
   namespace: dev
 spec:
   capacity:
-    storage: 0.5Gi
+    storage: 1.5Gi
   accessModes:
     - ReadWriteOnce
   hostPath:
