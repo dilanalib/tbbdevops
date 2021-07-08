@@ -19,7 +19,7 @@ spec:
       imagePullSecrets:
       - name: secret-key
       containers:
-      - name: myflask
+      - name: myflask-dev
         image: dilanyuzlek/myflask:latest
         imagePullPolicy: Always 
         ports:
@@ -33,7 +33,7 @@ spec:
             path: /
             port: 5001            
           initialDelaySeconds: 30
-          periodSeconds: 10
+          periodSeconds: 20
           timeoutSeconds: 5
         env:
         - name: MYSQL_USERNAME
