@@ -6,7 +6,7 @@ metadata:
   namespace: prod
 spec:
   capacity:
-    storage: 0.5Gi
+    storage: 1Gi
   accessModes:
     - ReadWriteOnce
   hostPath:
