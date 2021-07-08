@@ -18,7 +18,7 @@ spec:
       - name: secret-key
       containers:
       - name: myflask
-        image: k8s-registry.local:5000/myflask:v0
+        image: değiştir
         imagePullPolicy: Always 
         ports:
         - containerPort: 3000
