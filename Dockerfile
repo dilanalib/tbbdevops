@@ -6,7 +6,6 @@ WORKDIR /app
 ADD . /app
 
 COPY requirements.txt /app
-RUN apt-get update -y
 RUN pip3 install -r requirements.txt
 
 ENV MYSQL_USERNAME="root"
