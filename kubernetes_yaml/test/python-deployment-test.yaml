@@ -5,16 +5,16 @@ metadata:
   name: python-deploy
   namespace: test
   labels:
-    app: flask
+    app: myapp
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: flask
+      app: myapp
   template:
     metadata:
       labels:
-        app: flask
+        app: myapp
     spec:
       imagePullSecrets:
       - name: secret-key
