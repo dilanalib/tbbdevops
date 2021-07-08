@@ -49,7 +49,7 @@ spec:
         - name: mysql-initdb
           mountPath: /docker-entrypoint-initdb.d
       volumes:
-      - name: mydb-pv-volume-dev
+      - name: mydb-pv-dev
         persistentVolumeClaim:
           claimName: mydb-pvc
       - name: mysql-initdb
