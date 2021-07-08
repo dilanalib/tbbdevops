@@ -36,12 +36,12 @@ spec:
         resources:
           requests:
             cpu: 200m
-            memory: 1Gi
+            memory: 1.5Gi
         livenessProbe:
           exec:
             command: ["mysqladmin", "ping"]
           initialDelaySeconds: 30
-          periodSeconds: 20
+          periodSeconds: 10
           timeoutSeconds: 5
         volumeMounts:
         - name: mydb-pv-prod
