@@ -10,5 +10,5 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: "/opt/mydb-prod"
+    path: "/opt/mydb"
  
