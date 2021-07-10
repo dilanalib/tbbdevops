@@ -39,5 +39,5 @@ Mydb POD'u terminate olduğunda verilerin ve konfigürasyonun silinmemesi gereki
 
 boiljob deneme
 hgfh
-
+gfdgrfdrgd
  jhfgjlkjhblkjuhyk
