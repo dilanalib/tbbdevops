@@ -38,6 +38,6 @@ CMD python app.py
 Mydb POD'u terminate olduğunda verilerin ve konfigürasyonun silinmemesi gerekir. 
 
 boiljob deneme
-
+hgfh
 
  
