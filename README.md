@@ -1,3 +1,5 @@
+gjgfjgfc
+
 Bu projenin amaci Docker,Kubernetes,CI/CD ve security basliklarinda aldigimiz egitimleri uygulama imkani olusturmaktir.
 
 myapp  uygulamasi  Python Flask ile yazilmistir.  Arka planda MYSQL database'ine baglanarak query sonucunu web sayfasinda göstermektedir.
