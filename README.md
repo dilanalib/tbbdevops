@@ -36,14 +36,4 @@ CMD python app.py
 -----------------
 
 Mydb POD'u terminate olduğunda verilerin ve konfigürasyonun silinmemesi gerekir. 
-HFHGFX
-boiljob deneme
-hgfh
-gfdgrfdrgd
- jhfgjlkjhblkjuhykgfryrt
-jyjffkljgıulf
- jhyjkfyuk
-ökljhlhlşıkh
-hytdıutydıyuıdgfrdsrtfgvhjvj
-ökjçljghşoışpoıojko
-yfhufkkojkpiçiçi
+
