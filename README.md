@@ -43,4 +43,4 @@ gfdgrfdrgd
  jhfgjlkjhblkjuhykgfryrt
 jyjffkljgıulf
  jhyjkfyuk
-ökljh
+ökljhlhlşıkh
