@@ -20,7 +20,7 @@ spec:
       - name: secret-key
       containers:
       - name: myflask-test
-        image: dilanyuzlek/myflask
+        image: dilanyuzlek/myflask:v$DOCKER_BUILD_NUMBER
         imagePullPolicy: Always 
         ports:
         - containerPort: 5001
