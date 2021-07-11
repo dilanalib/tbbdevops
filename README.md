@@ -1,4 +1,4 @@
-gjgfjgfc
+gjgfjgfcff
 
 Bu projenin amaci Docker,Kubernetes,CI/CD ve security basliklarinda aldigimiz egitimleri uygulama imkani olusturmaktir.
 
