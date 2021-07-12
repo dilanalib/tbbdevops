@@ -1,4 +1,3 @@
-gjgfjgfcff
 
 Bu projenin amaci Docker,Kubernetes,CI/CD ve security basliklarinda aldigimiz egitimleri uygulama imkani olusturmaktir.
 
@@ -40,4 +39,4 @@ CMD python app.py
 Mydb POD'u terminate olduğunda verilerin ve konfigürasyonun silinmemesi gerekir. 
 
 
-de
+
