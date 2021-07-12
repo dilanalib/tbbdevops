@@ -5,6 +5,7 @@ metadata:
   name: mydb-pv-prod
   namespace: prod
 spec:
+  storageClassName: manual
   capacity:
     storage: 0.5Gi
   accessModes:
