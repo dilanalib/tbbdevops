@@ -38,5 +38,5 @@ CMD python app.py
 
 Mydb POD'u terminate olduğunda verilerin ve konfigürasyonun silinmemesi gerekir. 
 
-
+test
 
