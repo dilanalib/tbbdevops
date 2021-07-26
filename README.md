@@ -11,6 +11,8 @@ Jenkins pipeline'ı build job kullanılarak trigger edildi. Her github commit il
 
 ![buildjob](./images/webhook2.PNG)
 
+![sonarqubeanalysis](./images/sonarqube.PNG)
+
 ## Monitoring
 Monitoring için zabbix ve grafana kullanıldı. DNS Server makinesi için windows agent, HAProxy ve Jenkins makineleri içinse Linux Agent kullanıldı. Sistem ve URL monitoring yapıldı.
 - System Monitoring
