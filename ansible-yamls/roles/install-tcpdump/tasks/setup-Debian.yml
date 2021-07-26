@@ -1,0 +1,11 @@
+---
+- name: install tcpdump on Ubuntu
+  apt:
+    name: tcpdump
+    state: latest 
+
+- name: restart tcpdump service
+  service:
+    name: tcpdump
+    state: restarted
+    enabled: yes

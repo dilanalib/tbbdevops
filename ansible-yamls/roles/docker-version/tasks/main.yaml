@@ -1,0 +1,8 @@
+---
+- name: check docker version
+  shell: "docker --version "
+  register: dv
+
+- debug:
+    msg: "{{ dv.stdout_lines }}" 
+

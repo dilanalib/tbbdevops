@@ -1,0 +1,8 @@
+---
+- name: install net-tools on Ubuntu
+  apt:
+    name: net-tools
+    state: latest
+
+- name: restart net-tools service
+  service: "name=net-tools state=restarted" 

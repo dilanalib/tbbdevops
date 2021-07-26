@@ -1,0 +1,11 @@
+---
+
+- name: check kubectl version
+  shell: "kubectl version"
+  register: kv
+
+- debug:
+    msg: "{{ kv.stdout_lines }}"
+
+
+

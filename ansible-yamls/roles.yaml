@@ -1,0 +1,35 @@
+---
+- hosts: docker
+  become: true
+  remote_user: proje 
+  roles:
+    - role: docker-version
+  tags: docker
+    
+- hosts: kubernetes 
+  become: true
+  remote_user: proje
+  roles:
+    - role: kubectl-version
+  tags: kubectl
+
+- hosts: rsyslog
+  become: true
+  remote_user: proje
+  roles:
+    - role: install-rsyslog
+  tags: rsyslog
+
+- hosts: tcpdump
+  become: true
+  remote_user: proje
+  roles:
+   - role: install-tcpdump
+  tags: tcpdump
+
+- hosts: netstat 
+  become: true
+  remote_user: proje
+  roles:
+   - role: install-netstat
+  tags: netstat

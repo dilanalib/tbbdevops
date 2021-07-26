@@ -1,0 +1,8 @@
+---
+- name: install rsyslog on Ubuntu
+  apt:
+    name: rsyslog
+    state: present
+
+- name: restart rsyslog service
+  service: "name=rsyslog state=restarted" 

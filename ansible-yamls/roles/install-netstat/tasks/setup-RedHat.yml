@@ -1,0 +1,15 @@
+---
+- name: install net-tools on RedHat
+  yum:
+    name: net-tools
+    state: present
+  when: ansible_distribution_major_version == "7"
+
+- name: install net-tools on RedHat
+  dnf:
+    name: net-tools
+    state: latest
+  when: ansible_distribution_major_version == "8"
+
+- name: restart net-tools service
+  service: "name=net-tools state=restarted" 
