@@ -24,5 +24,4 @@ Monitoring için zabbix ve grafana kullanıldı. DNS Server makinesi için windo
 - URL Monitoring
 ![grafana](./images/grafana2.PNG)
 
-Kaynaklar:
-Ngrok: https://github.com/jenkins-x/jx/issues/5633#issuecomment-578161537
+Ngrok komutları için: https://github.com/jenkins-x/jx/issues/5633#issuecomment-578161537
