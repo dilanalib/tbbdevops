@@ -5,7 +5,7 @@ Bitirme projesinde bir Flask uygulaması önce dockerize edildi sonrasında kube
 ## Docker
 
 ## Jenkins
-Jenkins pipeline'ı build job kullanılarak trigger edildi. Her github commit ile triggerlanması için _Build Triggers_'ın _GitHub hook trigger for GITScm polling_ seçeneği kullanıldı. Ngrok aracı kullanılarak jenkins local ip'sinin internete çıkmasını sağlanıldı. Böylece her commit sonrasında SonarQube ile statik kod analizi yapıldı. Ngrok için gerekli adımları [GitHub Issues](https://github.com/jenkins-x/jx/issues/5633#issuecomment-578161537) adresinden bulabilirsiniz.
+Jenkins pipeline'ı build job kullanılarak trigger edildi. Her github commit ile triggerlanması için _Build Triggers_'ın _GitHub hook trigger for GITScm polling_ seçeneği kullanıldı. Ngrok aracı kullanılarak jenkins local ip'sinin internete çıkmasını sağlanıldı. Böylece her commit sonrasında SonarQube ile statik kod analizi yapıldı.
 
 ![buildjob](./images/webhook.PNG)
 
@@ -20,4 +20,4 @@ Monitoring için zabbix ve grafana kullanıldı. DNS Server makinesi için windo
 ![grafana](./images/grafana2.PNG)
 
 Kaynaklar:
-https://github.com/jenkins-x/jx/issues/5633#issuecomment-578161537
+Ngrok: https://github.com/jenkins-x/jx/issues/5633#issuecomment-578161537
