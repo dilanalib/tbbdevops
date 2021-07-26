@@ -1,6 +1,6 @@
 # TBB DevOps Uzmanı Yetiştirme Programı Bitirme Çalışması 
 
-Bitirme projesinde bir Flask uygulaması önce dockerize edildi sonrasında kubernetes kullanılarak deploy edildi. CI/CD yönetimi Jenkins ile yapıldı. 
+Bitirme projesinde bir Flask uygulaması önce dockerize edildi sonrasında kubernetes kullanılarak deploy edildi. CI/CD yönetimi Jenkins ile yapıldı. Active Directory kullanılarak DNS Server kurulumu yapıldı, nodeportların ve haproxynin kayıtları girildi. Haproxy kullanılarak trafik load balancer seviyesinde yönetildi. 
 
 ## Jenkins
 Jenkins pipeline'ı build job kullanılarak trigger edildi. Her github commit ile triggerlanması için _Build Triggers_'ın _GitHub hook trigger for GITScm polling_ seçeneği kullanıldı. Ngrok aracı kullanılarak jenkins local ip'sinin internete çıkmasını sağlanıldı. 
