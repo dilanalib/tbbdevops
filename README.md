@@ -9,7 +9,7 @@ Jenkins pipeline'ı build job kullanılarak trigger edildi. Her github commit il
 
 ![buildjob](./images/webhook2.PNG)
 
-Böylece her commit sonrasında SonarQube ile statik kod analizi yapıldı, docker ile build alınıp yeni imaj oluşturuldu ve oluşturulan imaj kubernetese deploy edildi. Test ve prod deploymnetlarında manual onay alındı. 
+Böylece her commit sonrasında SonarQube ile statik kod analizi yapıldı, docker ile build alınıp yeni imaj oluşturuldu ve oluşturulan imaj kubernetese deploy edildi. Test ve prod deploymentlarında manual onay alındı. 
 
 ![sonarqubeanalysis](./images/sonarqube.PNG)
 ![jenkinstest](./images/jenkinstest.png)
