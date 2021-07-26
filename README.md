@@ -1,3 +1,7 @@
+# TBB DevOps Uzmanı Yetiştirme Programı Bitirme Çalışması 
 
-test
-test
+
+
+## Monitoring
+![grafana](./images/grafana1.PNG)
+![grafana](./images/grafana2.PNG)
