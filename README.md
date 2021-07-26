@@ -2,8 +2,6 @@
 
 Bitirme projesinde bir Flask uygulaması önce dockerize edildi sonrasında kubernetes kullanılarak deploy edildi. CI/CD yönetimi Jenkins ile yapıldı. 
 
-## Docker
-
 ## Jenkins
 Jenkins pipeline'ı build job kullanılarak trigger edildi. Her github commit ile triggerlanması için _Build Triggers_'ın _GitHub hook trigger for GITScm polling_ seçeneği kullanıldı. Ngrok aracı kullanılarak jenkins local ip'sinin internete çıkmasını sağlanıldı. Böylece her commit sonrasında SonarQube ile statik kod analizi yapıldı.
 
